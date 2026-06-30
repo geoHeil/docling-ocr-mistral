@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v0.1.1-rc.2 (2026-06-30)
+
+### Bug Fixes
+
+- Make prerelease workflow catch up to main
+  ([`188a9be`](https://github.com/geoHeil/docling-ocr-mistral/commit/188a9bedbb2af1561a35311c6623e13e3344a325))
+
+
 ## v0.1.1-rc.1 (2026-06-30)
 
 ### Bug Fixes

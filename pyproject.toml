@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "docling-ocr-mistral"
-version = "0.1.1-rc.2"
+version = "0.1.1"
 description = "Mistral OCR plugin for Docling"
 readme = "README.md"
 requires-python = ">=3.10,<4.0"

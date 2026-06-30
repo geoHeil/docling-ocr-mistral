@@ -53,6 +53,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
+          git pull --ff-only origin main
           uv run --group release semantic-release version --as-prerelease
           git push origin main --follow-tags
           uv run --group release semantic-release publish
